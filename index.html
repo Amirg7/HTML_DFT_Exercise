@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FormsAndTablesExercise</title>
+  </head>
+  <body>
+    <div>
+      <form action="">
+        <label for="fname">First Name:</label>
+        <input
+          type="text"
+          name="fname"
+          id="fname"
+          required
+          placeholder="First Name..."
+        />
+
+        <label for="lname"> Last Name:</label>
+        <input
+          type="text"
+          name="lname"
+          id="lname"
+          required
+          placeholder="Last Name..."
+        />
+
+        <label for="email">Email Address:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="youremail@email.com"
+        />
+
+        <label for="Programming-Experience">Programming Experience:</label>
+
+        <label for="Beginner_Experience">Beginner</label>
+
+        <input
+          type="radio"
+          id="Beginner_Experience"
+          name="Beginner_Experience"
+          value="Beginner"
+        />
+
+        <label for="Intermediate_Experience">Intermediate</label>
+
+        <input
+          type="radio"
+          id="Intermediate_Experience"
+          name="Intermediate_Experience"
+          value="Intermediate"
+        />
+
+        <label for="Expert_Experience">Expert</label>
+        <input
+          type="radio"
+          id="Expert_Experience"
+          name="Expert_Experience"
+          value="Expert"
+        />
+
+        <label for="Desired_Career">Your Desired Career</label>
+        <input
+          type="text"
+          id="Desired_Career"
+          name="Desired_Career"
+          placeholder="Desired Career"
+          required
+        />
+
+        <input type="submit" value="Submit" />
+      </form>
+
+      <table>
+        <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>Your First Name</td>
+          <td>Your Last Name</td>
+          <td>Your Email Address</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
